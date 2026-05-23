@@ -363,6 +363,7 @@ section { padding: 96px 6vw; position: relative; }
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 2px;
+  position: relative; z-index: 11;
 }
 .work-card {
   position: relative; overflow: hidden; cursor: pointer;
@@ -902,69 +903,9 @@ footer {
   </div>
 </section>
 
-<!-- ── SERVICES — DARK ── -->
-<section id="services" class="dk">
-  <div class="dk-grunge"></div>
-  <div class="rv">
-    <div class="eyebrow"><span class="ru">Что мы делаем</span><span class="en">What we do</span></div>
-    <h2 class="sec-title"><span class="ru">Услуги</span><span class="en">Services</span></h2>
-  </div>
-
-  <div class="svc-grid">
-    <div class="svc-card rv" onclick="openSvcSheet(this)">
-      <div class="svc-n">01</div>
-      <div class="svc-tag">// Concert Visuals</div>
-      <div class="svc-h ru">Концертные<br>визуалы</div>
-      <div class="svc-h en">Concert<br>Visuals</div>
-      <p class="svc-p ru">Разработка кастомного сценического шоу под твой треклист. Нарезка бесшовных лупов и генеративной графики в Resolume. Готовый визуальный ряд, с которым группа может уверенно катать в туры целый год.</p>
-      <p class="svc-p en">Custom stage show built around your setlist. Seamless loops and generative graphics in Resolume. A complete visual package the band can tour with all year.</p>
-    </div>
-    <div class="svc-card rv" onclick="openSvcSheet(this)">
-      <div class="svc-n">02</div>
-      <div class="svc-tag">// Stories & Promos</div>
-      <div class="svc-h ru">Сторис<br>и анонсы</div>
-      <div class="svc-h en">Stories<br>& Promos</div>
-      <p class="svc-p ru">Оперативная графика для продвижения гигов. Афиши, тизеры и паки ситуативного промо («Осталось 2 дня» / «Концерт сегодня»). Инструмент для максимальной мобилизации локального комьюнити в финальные дни.</p>
-      <p class="svc-p en">Fast-turnaround graphics for show promotion. Posters, teasers and situational promo packs ("2 days left" / "Tonight"). Maximum audience mobilisation in the final stretch.</p>
-    </div>
-    <div class="svc-card rv" onclick="openSvcSheet(this)">
-      <div class="svc-n">03</div>
-      <div class="svc-tag">// Lyric Video & Snippets</div>
-      <div class="svc-h ru">Лирик-видео<br>и сниппеты</div>
-      <div class="svc-h en">Lyric Video<br>& Snippets</div>
-      <p class="svc-p ru">Пакеты динамических роликов в Reels/Shorts формат под релиз сингла или альбома. Живая, злая типографика и кастомный моушн, которые продвигают твою музыку в алгоритмах соцсетей.</p>
-      <p class="svc-p en">Dynamic reel/shorts packs for single or album releases. Aggressive typography and custom motion that push your music through social algorithms.</p>
-    </div>
-    <div class="svc-card rv" onclick="openSvcSheet(this)">
-      <div class="svc-n">04</div>
-      <div class="svc-tag">// Concert Promo</div>
-      <div class="svc-h ru">Промо<br>концерта</div>
-      <div class="svc-h en">Concert<br>Promo</div>
-      <p class="svc-p ru">Агрессивные рекламные креативы и тизеры для запуска предпродаж фестивалей и сольников. Бьющий по глазам визуал, который обеспечивает высокий CTR и дожимает продажи билетов сомневающимся.</p>
-      <p class="svc-p en">Hard-hitting ad creatives and teasers to launch presales for festivals and headline shows. Eye-grabbing visuals that maximise CTR and convert the undecided.</p>
-    </div>
-    <div class="svc-card rv" onclick="openSvcSheet(this)">
-      <div class="svc-n">05</div>
-      <div class="svc-tag">// Cover Animation</div>
-      <div class="svc-h ru">Анимация<br>обложки</div>
-      <div class="svc-h en">Cover<br>Animation</div>
-      <p class="svc-p ru">Оживление арта твоего альбома для стримингов (Yandex Music, Apple Music, Spotify) и бэкграундов на YouTube. Перевод статичного мерча и графики релиза в живой цифровой формат.</p>
-      <p class="svc-p en">Bringing your album art to life for streaming platforms (Yandex Music, Apple Music, Spotify) and YouTube backgrounds. Turning static merch and release graphics into living digital format.</p>
-    </div>
-    <div class="svc-card svc-cta rv">
-      <div class="svc-tag">// Contact</div>
-      <div class="svc-h ru" style="font-size:28px; line-height:1.15; margin-bottom:20px;">Нужен<br>другой<br>формат?</div>
-      <div class="svc-h en" style="font-size:28px; line-height:1.15; margin-bottom:20px;">Need a<br>custom<br>format?</div>
-      <a href="#contact" class="btn-red" style="font-size:10px; padding:11px 24px; display:inline-block;">
-        <span class="ru">Обсудить</span>
-        <span class="en">Let's talk</span>
-      </a>
-    </div>
-  </div>
-</section>
-
 <!-- ── WORKS — DARK ── -->
 <section id="works" class="dk">
+  <div class="dk-grunge"></div>
   <div class="rv">
     <div class="eyebrow"><span class="ru">Избранное</span><span class="en">Selected work</span></div>
     <h2 class="sec-title"><span class="ru">Работы</span><span class="en">Works</span></h2>
@@ -1062,6 +1003,67 @@ footer {
       <div class="wplay"><div class="play-btn"></div></div>
     </div>
 
+  </div>
+</section>
+
+<!-- ── SERVICES — DARK ── -->
+<section id="services" class="dk">
+  <div class="dk-grunge"></div>
+  <div class="rv">
+    <div class="eyebrow"><span class="ru">Что мы делаем</span><span class="en">What we do</span></div>
+    <h2 class="sec-title"><span class="ru">Услуги</span><span class="en">Services</span></h2>
+  </div>
+
+  <div class="svc-grid">
+    <div class="svc-card rv" onclick="openSvcSheet(this)">
+      <div class="svc-n">01</div>
+      <div class="svc-tag">// Concert Visuals</div>
+      <div class="svc-h ru">Концертные<br>визуалы</div>
+      <div class="svc-h en">Concert<br>Visuals</div>
+      <p class="svc-p ru">Разработка кастомного сценического шоу под твой треклист. Нарезка бесшовных лупов и генеративной графики в Resolume. Готовый визуальный ряд, с которым группа может уверенно катать в туры целый год.</p>
+      <p class="svc-p en">Custom stage show built around your setlist. Seamless loops and generative graphics in Resolume. A complete visual package the band can tour with all year.</p>
+    </div>
+    <div class="svc-card rv" onclick="openSvcSheet(this)">
+      <div class="svc-n">02</div>
+      <div class="svc-tag">// Stories & Promos</div>
+      <div class="svc-h ru">Сторис<br>и анонсы</div>
+      <div class="svc-h en">Stories<br>& Promos</div>
+      <p class="svc-p ru">Оперативная графика для продвижения гигов. Афиши, тизеры и паки ситуативного промо («Осталось 2 дня» / «Концерт сегодня»). Инструмент для максимальной мобилизации локального комьюнити в финальные дни.</p>
+      <p class="svc-p en">Fast-turnaround graphics for show promotion. Posters, teasers and situational promo packs ("2 days left" / "Tonight"). Maximum audience mobilisation in the final stretch.</p>
+    </div>
+    <div class="svc-card rv" onclick="openSvcSheet(this)">
+      <div class="svc-n">03</div>
+      <div class="svc-tag">// Lyric Video & Snippets</div>
+      <div class="svc-h ru">Лирик-видео<br>и сниппеты</div>
+      <div class="svc-h en">Lyric Video<br>& Snippets</div>
+      <p class="svc-p ru">Пакеты динамических роликов в Reels/Shorts формат под релиз сингла или альбома. Живая, злая типографика и кастомный моушн, которые продвигают твою музыку в алгоритмах соцсетей.</p>
+      <p class="svc-p en">Dynamic reel/shorts packs for single or album releases. Aggressive typography and custom motion that push your music through social algorithms.</p>
+    </div>
+    <div class="svc-card rv" onclick="openSvcSheet(this)">
+      <div class="svc-n">04</div>
+      <div class="svc-tag">// Concert Promo</div>
+      <div class="svc-h ru">Промо<br>концерта</div>
+      <div class="svc-h en">Concert<br>Promo</div>
+      <p class="svc-p ru">Агрессивные рекламные креативы и тизеры для запуска предпродаж фестивалей и сольников. Бьющий по глазам визуал, который обеспечивает высокий CTR и дожимает продажи билетов сомневающимся.</p>
+      <p class="svc-p en">Hard-hitting ad creatives and teasers to launch presales for festivals and headline shows. Eye-grabbing visuals that maximise CTR and convert the undecided.</p>
+    </div>
+    <div class="svc-card rv" onclick="openSvcSheet(this)">
+      <div class="svc-n">05</div>
+      <div class="svc-tag">// Cover Animation</div>
+      <div class="svc-h ru">Анимация<br>обложки</div>
+      <div class="svc-h en">Cover<br>Animation</div>
+      <p class="svc-p ru">Оживление арта твоего альбома для стримингов (Yandex Music, Apple Music, Spotify) и бэкграундов на YouTube. Перевод статичного мерча и графики релиза в живой цифровой формат.</p>
+      <p class="svc-p en">Bringing your album art to life for streaming platforms (Yandex Music, Apple Music, Spotify) and YouTube backgrounds. Turning static merch and release graphics into living digital format.</p>
+    </div>
+    <div class="svc-card svc-cta rv">
+      <div class="svc-tag">// Contact</div>
+      <div class="svc-h ru" style="font-size:28px; line-height:1.15; margin-bottom:20px;">Нужен<br>другой<br>формат?</div>
+      <div class="svc-h en" style="font-size:28px; line-height:1.15; margin-bottom:20px;">Need a<br>custom<br>format?</div>
+      <a href="#contact" class="btn-red" style="font-size:10px; padding:11px 24px; display:inline-block;">
+        <span class="ru">Обсудить</span>
+        <span class="en">Let's talk</span>
+      </a>
+    </div>
   </div>
 </section>
 
@@ -1222,7 +1224,7 @@ window.addEventListener('scroll', () => {
 
 // ── Active nav link on scroll ──
 (function() {
-  const sections = ['hero','services','works','about','contact'];
+  const sections = ['hero','works','services','about','contact'];
   const links = document.querySelectorAll('.nav-links a[href^="#"]');
   const navObs = new IntersectionObserver((entries) => {
     entries.forEach(e => {
