@@ -1,13 +1,13 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="ru" data-lang="ru">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>OVOD Visuals — Visual Content for Heavy Music</title>
-<meta name="description" content="OVOD Visuals — независимый визуальный продакшн для тяжёлой музыки. Концертные визуалы, промо-ролики, лирик-видео и фестивальные экраны.">
+<title>OVOD Visuals - Visual Content for Heavy Music</title>
+<meta name="description" content="OVOD Visuals - независимый визуальный продакшн для тяжёлой музыки. Концертные визуалы, промо-ролики, лирик-видео и фестивальные экраны.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://ovod.onrender.com">
-<meta property="og:title" content="OVOD Visuals — Visual Content for Heavy Music">
+<meta property="og:title" content="OVOD Visuals - Visual Content for Heavy Music">
 <meta property="og:description" content="Концертные визуалы, промо-ролики и лирик-видео для тяжёлой музыки. Смотри работы.">
 <meta property="og:image" content="https://ovod.onrender.com/Logo.png">
 <meta name="twitter:card" content="summary">
@@ -109,7 +109,7 @@ body::before {
 .burger.open span:nth-child(3) { transform: translateY(-6px) rotate(-45deg); }
 
 /* ──────────────────
-   HERO — DARK
+   HERO - DARK
 ────────────────── */
 #hero {
   min-height: 100vh;
@@ -144,7 +144,7 @@ body::before {
 .blink { display: inline-block; width: 6px; height: 6px; background: var(--red); animation: blink 1.1s steps(1) infinite; }
 @keyframes blink { 50% { opacity: 0; } }
 
-/* Lodeh — только для логотипа */
+/* Lodeh - только для логотипа */
 .hero-title {
   font-family: var(--f-logo);
   font-size: clamp(60px, 11vw, 150px);
@@ -317,7 +317,7 @@ section { padding: 96px 6vw; position: relative; }
 .lt > * { position: relative; z-index: 1; }
 
 /* ──────────────────
-   SERVICES — LIGHT
+   SERVICES - LIGHT
 ────────────────── */
 .svc-grid {
   display: grid;
@@ -357,7 +357,7 @@ section { padding: 96px 6vw; position: relative; }
 .svc-cta { background: #0a0a0a; display: flex; flex-direction: column; justify-content: center; }
 
 /* ──────────────────
-   WORKS — DARK
+   WORKS - DARK
 ────────────────── */
 .works-grid {
   display: grid;
@@ -555,7 +555,7 @@ section { padding: 96px 6vw; position: relative; }
 .wcase-block p { font-size: 15px; line-height: 1.78; color: #999; font-weight: 500; }
 
 /* ──────────────────
-   ABOUT — DARK
+   ABOUT - DARK
 ────────────────── */
 .about-wrap { display: grid; grid-template-columns: 1fr 1fr; gap: 80px; align-items: stretch; }
 
@@ -607,7 +607,7 @@ section { padding: 96px 6vw; position: relative; }
 .abox-line { position: absolute; bottom: 0; left: 0; right: 0; height: 2px; background: var(--red); }
 
 /* ──────────────────
-   CONTACT — DARK
+   CONTACT - DARK
 ────────────────── */
 .contact-top {
   display: flex; justify-content: space-between; align-items: flex-end;
@@ -850,7 +850,7 @@ footer {
   </div>
 </nav>
 
-<!-- мобильное меню — вне nav, чтобы backdrop-filter не ломал z-index -->
+<!-- мобильное меню - вне nav, чтобы backdrop-filter не ломал z-index -->
 <ul class="nav-links" id="navLinks">
   <li><a href="#works"    onclick="closeMenu()"><span class="ru">Работы</span><span class="en">Works</span></a></li>
   <li><a href="#services" onclick="closeMenu()"><span class="ru">Услуги</span><span class="en">Services</span></a></li>
@@ -859,7 +859,7 @@ footer {
   <li><button class="lang-btn" id="langBtn" onclick="toggleLang()">EN</button></li>
 </ul>
 
-<!-- ── HERO — DARK ── -->
+<!-- ── HERO - DARK ── -->
 <section id="hero" class="dk">
   <div class="hero-glow"></div>
   <div class="dk-grunge"></div>
@@ -903,7 +903,7 @@ footer {
   </div>
 </section>
 
-<!-- ── WORKS — DARK ── -->
+<!-- ── WORKS - DARK ── -->
 <section id="works" class="dk">
   <div class="dk-grunge"></div>
   <div class="rv">
@@ -912,20 +912,20 @@ footer {
   </div>
   <div class="works-grid">
 
-    <!-- 1 — LIVE VISUALS -->
+    <!-- 1 - LIVE VISUALS -->
     <div class="work-card rv" onclick="openModal(1)" data-preview="Video/0510_Crust2.mp4" data-thumb="prev_crust.jpg">
       <div class="wbg wbg-1"></div><div class="wov"></div>
       <div class="wcont">
         <div class="wtag"><span class="ru">Концертный виджеинг</span><span class="en">Concert VJ</span></div>
         <div>
           <div class="wt">Live Visuals</div>
-          <p class="wdesc"><span class="ru">35 минут живого генеративного контента, упакованных в концентрат чистого драйва</span><span class="en">35 minutes of live generative content — packed into a blast of pure drive</span></p>
+          <p class="wdesc"><span class="ru">35 минут живого генеративного контента, упакованных в концентрат чистого драйва</span><span class="en">35 minutes of live generative content - packed into a blast of pure drive</span></p>
         </div>
       </div>
       <div class="wplay"><div class="play-btn"></div></div>
     </div>
 
-    <!-- 3 — КОСТРЫ: ВИЗУАЛ -->
+    <!-- 3 - КОСТРЫ: ВИЗУАЛ -->
     <div class="work-card rv" onclick="openModal(3)" data-preview="Video/Kostri2.mp4" data-thumb="prev_kostri_viz.jpg">
       <div class="wbg wbg-3"></div><div class="wov"></div>
       <div class="wcont">
@@ -938,20 +938,20 @@ footer {
       <div class="wplay"><div class="play-btn"></div></div>
     </div>
 
-    <!-- 4 — COUNTDOWN -->
+    <!-- 4 - COUNTDOWN -->
     <div class="work-card rv" onclick="openModal(4)" data-preview="Video/2days.mp4" data-thumb="prev_countdown.jpg">
       <div class="wbg wbg-4"></div><div class="wov"></div>
       <div class="wcont">
         <div class="wtag"><span class="ru">Концертное промо</span><span class="en">Concert Promo</span></div>
         <div>
           <div class="wt">Countdown</div>
-          <p class="wdesc"><span class="ru">Серия FOMO-роликов: «2 дня» → «Завтра» → «Сегодня» — финальный пуш продаж</span><span class="en">FOMO clip series: "2 days" → "Tomorrow" → "Tonight" — the final ticket push</span></p>
+          <p class="wdesc"><span class="ru">Серия FOMO-роликов: «2 дня» → «Завтра» → «Сегодня» - финальный пуш продаж</span><span class="en">FOMO clip series: "2 days" → "Tomorrow" → "Tonight" - the final ticket push</span></p>
         </div>
       </div>
       <div class="wplay"><div class="play-btn"></div></div>
     </div>
 
-    <!-- 7 — LYRIC PROMO SERIES -->
+    <!-- 7 - LYRIC PROMO SERIES -->
     <div class="work-card rv" onclick="openModal(7)" data-preview="Video/Imgvn/03.mp4" data-thumb="prev_imgvn.jpg">
       <div class="wbg wbg-7"></div><div class="wov"></div>
       <div class="wcont">
@@ -964,7 +964,7 @@ footer {
       <div class="wplay"><div class="play-btn"></div></div>
     </div>
 
-    <!-- 5 — КОСТРЫ: АНОНС -->
+    <!-- 5 - КОСТРЫ: АНОНС -->
     <div class="work-card rv" onclick="openModal(5)" data-preview="Video/916_all.mp4" data-thumb="prev_kostri_anons.jpg">
       <div class="wbg wbg-5"></div><div class="wov"></div>
       <div class="wcont">
@@ -977,7 +977,7 @@ footer {
       <div class="wplay"><div class="play-btn"></div></div>
     </div>
 
-    <!-- 2 — VINYL DROP -->
+    <!-- 2 - VINYL DROP -->
     <div class="work-card rv" onclick="openModal(2)" data-preview="Video/Tsygun_9x16_2.mp4" data-thumb="prev_vinyl.jpg">
       <div class="wbg wbg-2"></div><div class="wov"></div>
       <div class="wcont">
@@ -990,14 +990,14 @@ footer {
       <div class="wplay"><div class="play-btn"></div></div>
     </div>
 
-    <!-- 6 — ВИРУСНЫЙ ТРИБЬЮТ -->
+    <!-- 6 - ВИРУСНЫЙ ТРИБЬЮТ -->
     <div class="work-card rv" onclick="openModal(6)" data-preview="Video/inst/ufo.mp4" data-thumb="prev_tribute.jpg">
       <div class="wbg wbg-6"></div><div class="wov"></div>
       <div class="wcont">
         <div class="wtag"><span class="ru">Экспериментальный моушн</span><span class="en">Experimental Motion</span></div>
         <div>
           <div class="wt"><span class="ru">Вирусный трибьют</span><span class="en">Viral Tribute</span></div>
-          <p class="wdesc"><span class="ru">Три арт-видео вдохновлённых эстетикой культовых метал-банд — сотни тысяч органических просмотров</span><span class="en">Three art videos inspired by iconic metal bands — hundreds of thousands of organic views</span></p>
+          <p class="wdesc"><span class="ru">Три арт-видео вдохновлённых эстетикой культовых метал-банд - сотни тысяч органических просмотров</span><span class="en">Three art videos inspired by iconic metal bands - hundreds of thousands of organic views</span></p>
         </div>
       </div>
       <div class="wplay"><div class="play-btn"></div></div>
@@ -1006,7 +1006,7 @@ footer {
   </div>
 </section>
 
-<!-- ── SERVICES — DARK ── -->
+<!-- ── SERVICES - DARK ── -->
 <section id="services" class="dk">
   <div class="dk-grunge"></div>
   <div class="rv">
@@ -1104,7 +1104,7 @@ footer {
   </div>
 </div>
 
-<!-- ── ABOUT — DARK ── -->
+<!-- ── ABOUT - DARK ── -->
 <section id="about" class="dk">
   <div class="dk-grunge"></div>
   <div class="about-wrap">
@@ -1114,12 +1114,12 @@ footer {
         <h2 class="sec-title">Ovod Visuals</h2>
       </div>
       <p class="about-p lead rv">
-        <span class="ru">Мы не делаем стерильную корпоративную рекламу. OVOD Visuals — это независимый визуальный продакшн, созданный для музыкантов, которые ценят мощный звук, живую энергетику и сильную подачу.</span>
+        <span class="ru">Мы не делаем стерильную корпоративную рекламу. OVOD Visuals - это независимый визуальный продакшн, созданный для музыкантов, которые ценят мощный звук, живую энергетику и сильную подачу.</span>
         <span class="en">We don't make sterile corporate ads. OVOD Visuals is an independent visual production studio built for musicians who value powerful sound, raw energy and strong delivery.</span>
       </p>
       <p class="about-p rv">
-        <span class="ru">Мы переводим драйв живых выступлений и характер каждого трека в цифровой формат. От масштабных концертных шоу для экранов до промо-роликов под релизы — каждый кадр собирается вручную под конкретный ритм, гитарный кач и настроение банды. Мы понимаем культуру живой музыки изнутри.</span>
-        <span class="en">We translate the drive of live performances and the character of every track into digital format. From large-scale concert screen shows to release promos — every frame is handcrafted to match the specific rhythm, guitar weight and mood of the band. We understand live music culture from the inside.</span>
+        <span class="ru">Мы переводим драйв живых выступлений и характер каждого трека в цифровой формат. От масштабных концертных шоу для экранов до промо-роликов под релизы - каждый кадр собирается вручную под конкретный ритм, гитарный кач и настроение банды. Мы понимаем культуру живой музыки изнутри.</span>
+        <span class="en">We translate the drive of live performances and the character of every track into digital format. From large-scale concert screen shows to release promos - every frame is handcrafted to match the specific rhythm, guitar weight and mood of the band. We understand live music culture from the inside.</span>
       </p>
       <div class="stats rv">
         <div class="stat">
@@ -1148,7 +1148,7 @@ footer {
   </div>
 </section>
 
-<!-- ── CONTACT — DARK ── -->
+<!-- ── CONTACT - DARK ── -->
 <section id="contact" class="dk" style="border-top: 1px solid var(--dk-brd);">
   <div class="dk-grunge"></div>
   <div class="contact-top rv">
@@ -1178,7 +1178,7 @@ footer {
 <footer>
   <div class="footer-top">
     <div class="footer-wordmark">Ovod Visuals</div>
-    <div class="footer-tagline">Visual Content Studio — Heavy Music</div>
+    <div class="footer-tagline">Visual Content Studio - Heavy Music</div>
   </div>
   <div class="footer-bottom">
     <ul class="footer-nav">
@@ -1281,22 +1281,22 @@ const PROJECTS = [
   {
     id: 1, tag: 'Концертный виджеинг', title: 'LIVE VISUALS',
     brief: '35 минут живого генеративного контента, упакованные в минутный концентрат чистого драйва.',
-    videos: [{ label: '01 — Шоурил', src: 'Video/0510_Crust2.mp4' }],
+    videos: [{ label: '01 - Шоурил', src: 'Video/0510_Crust2.mp4' }],
     task: 'Создать масштабное, плотное и разнообразное визуальное сопровождение, способное удерживать внимание аудитории на протяжении всего концерта.',
     done: 'Разработан кастомный 35-минутный визуальный сет в Resolume Arena. Создана многослойная генеративная графика, динамические глитчи, атмосферные текстуры и мрачные абстрактные лупы, синхронизированные с живым темпом музыки.',
     result: 'Монументальное live-шоу, полностью закрывающее потребность группы в уникальном сценическом визуале под весь сет-лист.',
     en: {
       tag: 'Concert VJ',
-      brief: '35 minutes of live generative content — packed into a concentrated blast of pure drive.',
+      brief: '35 minutes of live generative content - packed into a concentrated blast of pure drive.',
       task: 'Build a large-scale, dense and varied visual show capable of holding the audience\'s attention for the entire concert.',
-      done: 'Developed a custom 35-minute visual set in Resolume Arena. Multi-layered generative graphics, dynamic glitches, atmospheric textures and dark abstract loops — all synchronised to the live tempo of the music.',
+      done: 'Developed a custom 35-minute visual set in Resolume Arena. Multi-layered generative graphics, dynamic glitches, atmospheric textures and dark abstract loops - all synchronised to the live tempo of the music.',
       result: 'A monumental live show that fully delivers the band\'s unique stage visual across their entire setlist.'
     }
   },
   {
     id: 2, tag: 'Промо / Vinyl', title: 'VINYL DROP',
     brief: 'Моушн-видео для анонса и запуска предзаказов физических релизов.',
-    videos: [{ label: '01 — Vinyl Drop', src: 'Video/Tsygun_9x16_2.mp4' }],
+    videos: [{ label: '01 - Vinyl Drop', src: 'Video/Tsygun_9x16_2.mp4' }],
     task: 'Презентовать виниловое издание альбома так, чтобы стимулировать фан-базу к мгновенному оформлению предзаказа.',
     done: 'Создана моушн-анимация вращения пластинки и элементов оформления конверта. Акцент на детализацию мерча, фактуру и атмосферу релиза в синергии со звуковым рядом.',
     result: 'Эффективный триггер для соцсетей, переводящий прослушивания стримингов в продажи физических копий.',
@@ -1312,18 +1312,18 @@ const PROJECTS = [
     id: 3, tag: 'Фестиваль / Визуал', title: 'КОСТРЫ: ВИЗУАЛ',
     brief: 'Комплексный массив видеоконтента для трансляции на главных экранах масштабного фестиваля.',
     videos: [
-      { label: '01 — Главный экран', src: 'Video/Kostri2.mp4' },
-      { label: '02 — Сет-лупы', src: 'Video/screen02.mp4' },
-      { label: '03 — Internal Damage', src: 'Video/Internal_Damage.mp4' }
+      { label: '01 - Главный экран', src: 'Video/Kostri2.mp4' },
+      { label: '02 - Сет-лупы', src: 'Video/screen02.mp4' },
+      { label: '03 - Internal Damage', src: 'Video/Internal_Damage.mp4' }
     ],
     task: 'Разработать масштабную визуальную экосистему для фестивальной сцены, поддерживающую общую концепцию и эстетику события.',
-    done: 'Сгенерирован и смонтирован большой объём кастомных видеоматериалов и бесшовных лупов — динамические текстуры, пламя и оккультный визуал. Видео адаптировано под конфигурацию сценических экранов для бесперебойной трансляции.',
+    done: 'Сгенерирован и смонтирован большой объём кастомных видеоматериалов и бесшовных лупов - динамические текстуры, пламя и оккультный визуал. Видео адаптировано под конфигурацию сценических экранов для бесперебойной трансляции.',
     result: 'Полное визуальное погружение зрителей и готовый бэкграунд для выступлений десятков групп в течение всего фестиваля.',
     en: {
       tag: 'Festival / Visuals',
       brief: 'A full suite of video content for broadcast on the main screens of a large-scale festival.',
       task: 'Develop a large-scale visual ecosystem for the festival stage that supports the overall concept and aesthetic of the event.',
-      done: 'Generated and edited a large volume of custom video materials and seamless loops — dynamic textures, fire and occult visuals. Adapted to the stage screen configuration for continuous uninterrupted playback.',
+      done: 'Generated and edited a large volume of custom video materials and seamless loops - dynamic textures, fire and occult visuals. Adapted to the stage screen configuration for continuous uninterrupted playback.',
       result: 'Complete visual immersion for the audience and a ready-made backdrop for dozens of bands performing throughout the entire festival.'
     }
   },
@@ -1331,9 +1331,9 @@ const PROJECTS = [
     id: 4, tag: 'Концертное промо', title: 'COUNTDOWN',
     brief: 'Ситуативный пак видео-анонсов для создания эффекта FOMO и финального пуша билетов.',
     videos: [
-      { label: '01 — 2 дня', src: 'Video/2days.mp4' },
-      { label: '02 — Завтра', src: 'Video/tomorrow2.mp4' },
-      { label: '03 — Сегодня', src: 'Video/today.mp4' }
+      { label: '01 - 2 дня', src: 'Video/2days.mp4' },
+      { label: '02 - Завтра', src: 'Video/tomorrow2.mp4' },
+      { label: '03 - Сегодня', src: 'Video/today.mp4' }
     ],
     task: 'Дожать продажи билетов в последние дни перед концертом, активизировав сомневающуюся аудиторию.',
     done: 'Разработана серия динамичных, бьющих по глазам роликов с жёстким таймлайном: «Осталось 2 дня» → «Концерт завтра» → «Концерт сегодня».',
@@ -1349,7 +1349,7 @@ const PROJECTS = [
   {
     id: 5, tag: 'Фестиваль / Анонс', title: 'КОСТРЫ: АНОНС',
     brief: 'Главное тизер-видео для запуска масштабной рекламной кампании фестиваля.',
-    videos: [{ label: '01 — Анонс', src: 'Video/916_all.mp4' }],
+    videos: [{ label: '01 - Анонс', src: 'Video/916_all.mp4' }],
     task: 'Создать цепляющий и интригующий рекламный креатив для привлечения целевой аудитории и старта продаж билетов на фест.',
     done: 'Агрессивный монтаж, плотная работа со шрифтами и айдентикой фестиваля «КОСТРЫ». Визуальный ряд собран так, чтобы мгновенно считывался стиль и масштаб грядущего события.',
     result: 'Бронебойный креатив для промо-кампании, обеспечивший высокий CTR и узнаваемость бренда фестиваля со старта анонса.',
@@ -1365,31 +1365,31 @@ const PROJECTS = [
     id: 6, tag: 'Экспериментальный моушн', title: 'ВИРУСНЫЙ ТРИБЬЮТ',
     brief: 'Визуальные трибьюты любимым группам, собравшие сотни тысяч просмотров в соцсетях.',
     videos: [
-      { label: '01 — UFO', src: 'Video/inst/ufo.mp4' },
-      { label: '02 — Amps', src: 'Video/inst/amps.mp4' },
-      { label: '03 — Skulls', src: 'Video/inst/skulls.mp4' }
+      { label: '01 - UFO', src: 'Video/inst/ufo.mp4' },
+      { label: '02 - Amps', src: 'Video/inst/amps.mp4' },
+      { label: '03 - Skulls', src: 'Video/inst/skulls.mp4' }
     ],
     task: 'Эксперименты с формой, стилем и чистым вдохновением без коммерческих рамок заказчика.',
     done: 'Создана серия из 3-х атмосферных видеороликов, вдохновлённых эстетикой культовых метал-банд. Использованы нестандартные техники композитинга и анимации.',
-    result: 'Вирусный эффект в соцсетях. Ролик KYUSS x Amps набрал 108 тыс. просмотров, 5.4 тыс. лайков и 580 сохранений — чисто органически, без продвижения. Попадание в алгоритмы рекомендаций с первых часов.',
+    result: 'Вирусный эффект в соцсетях. Ролик KYUSS x Amps набрал 108 тыс. просмотров, 5.4 тыс. лайков и 580 сохранений - чисто органически, без продвижения. Попадание в алгоритмы рекомендаций с первых часов.',
     proof: 'scr01.png',
     en: {
       tag: 'Experimental Motion',
       title: 'VIRAL TRIBUTE',
       brief: 'Visual tributes to favourite bands that racked up hundreds of thousands of views on social media.',
-      task: 'Experiments in form, style and pure inspiration — no commercial brief, no constraints.',
+      task: 'Experiments in form, style and pure inspiration - no commercial brief, no constraints.',
       done: 'Created a series of 3 atmospheric videos inspired by the aesthetics of iconic metal bands. Non-standard compositing and animation techniques throughout.',
-      result: 'Viral performance on social media. The KYUSS x Amps video hit 108K views, 5.4K likes and 580 saves — purely organic, zero paid promotion. Caught the recommendation algorithm within the first hours.'
+      result: 'Viral performance on social media. The KYUSS x Amps video hit 108K views, 5.4K likes and 580 saves - purely organic, zero paid promotion. Caught the recommendation algorithm within the first hours.'
     }
   },
   {
     id: 7, tag: 'Lyric Promo / Синглы', title: 'LYRIC PROMO SERIES',
     brief: 'Серия из 4 динамичных вертикальных видео с агрессивной кинетической типографикой под релиз сингла.',
     videos: [
-      { label: '01 — Сниппет', src: 'Video/Imgvn/03.mp4' },
-      { label: '02 — Сниппет', src: 'Video/Imgvn/02.mp4' },
-      { label: '03 — Сниппет', src: 'Video/Imgvn/04.mp4' },
-      { label: '04 — Сниппет', src: 'Video/Imgvn/01.mp4' }
+      { label: '01 - Сниппет', src: 'Video/Imgvn/03.mp4' },
+      { label: '02 - Сниппет', src: 'Video/Imgvn/02.mp4' },
+      { label: '03 - Сниппет', src: 'Video/Imgvn/04.mp4' },
+      { label: '04 - Сниппет', src: 'Video/Imgvn/01.mp4' }
     ],
     task: 'Создать серию визуальных триггеров для соцсетей (Reels/Shorts/TikTok), которые заставят аудиторию вслушаться в текст и дождаться выхода сингла.',
     done: 'Разработаны 4 уникальных видео-сниппета с агрессивной кинетической типографикой. Каждое слово синхронизировано с ритмическим рисунком барабанов и гитарным качем. Использованы авторские грязные текстуры, глитч-эффекты и цветокоррекция, отражающая концепцию релиза.',
@@ -1510,7 +1510,7 @@ document.addEventListener('keydown', e => { if (e.key === 'Escape') closeModal()
     const wbg = card.querySelector('.wbg');
     const src = card.dataset.preview;
 
-    // Canvas thumbnail — grab frame at ~1s (skip if static thumb provided)
+    // Canvas thumbnail - grab frame at ~1s (skip if static thumb provided)
     if (card.dataset.thumb) {
       wbg.style.backgroundImage = `url(${card.dataset.thumb})`;
       wbg.style.backgroundSize = 'cover';
@@ -1532,7 +1532,7 @@ document.addEventListener('keydown', e => { if (e.key === 'Escape') closeModal()
       });
     }
 
-    // Hover: live video — src set only on first hover to avoid broken-video placeholder
+    // Hover: live video - src set only on first hover to avoid broken-video placeholder
     const v = document.createElement('video');
     v.muted = true; v.loop = true; v.playsInline = true; v.preload = 'none';
     v.style.cssText = 'position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0;transition:opacity .5s ease;z-index:1;';
@@ -1553,7 +1553,7 @@ document.addEventListener('keydown', e => { if (e.key === 'Escape') closeModal()
   });
 }());
 
-// 3D logo tilt — smooth lerp after mouse
+// 3D logo tilt - smooth lerp after mouse
 (function() {
   const el = document.getElementById('hero-logo3d');
   if (!el) return;
